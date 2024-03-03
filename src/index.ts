@@ -1,11 +1,11 @@
 export class log{
     static sucess(msg : string){
-        console.log(`${msg}`,'color:green');
+        console.log(`%c ${msg}`,'color:green');
     }
     static danger(msg : string){
-        console.log(`${msg}`,'color:red');
+        console.log(`%c ${msg}`,'color:red');
     }
     static warn(msg : string){
-        console.log(`${msg}`,'color:yellow');
+        console.log(`%c ${msg}`,'color:yellow');
     }
 }

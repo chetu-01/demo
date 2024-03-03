@@ -1,0 +1,28 @@
+{
+  "name": "zitics-core-ui",
+  "version": "1.0.0",
+  "description": "Zitics core ui library",
+  "main": "index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chetu-01/zitics-core-ui.git"
+  },
+  "keywords": [
+    "zitics core ui library"
+  ],
+  "author": "Chetan Shimpi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chetu-01/zitics-core-ui/issues"
+  },
+  "homepage": "https://github.com/chetu-01/zitics-core-ui#readme",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "files": ["dist/**/*"]
+}
